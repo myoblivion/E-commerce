@@ -1,0 +1,58 @@
+*, body {
+    margin: 0;
+    padding: 0;
+}
+/* Header */
+.header {
+    width: 100%;
+    height: 100%;
+}
+.navbar {
+    width: 100%;
+    height: 100%;
+}
+
+/* Top nav */
+.top-nav {
+    width: 100%;
+    height: 100%;
+    background-color: #f3f3f3;
+    padding: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top-nav a {
+    color: black;
+    text-decoration: none;
+    margin-right: 2%;
+}
+.top-nav .left-top-nav {
+    width: 20%;
+    margin-left: 5%;
+}
+.top-nav .right-top-nav {
+    width: 15%;
+    margin-right: 5%;
+
+}
+
+/* Bottom Nav */
+.bottom-nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.left-bottom-nav {
+    width: 40%;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+}
+.left-bottom-nav img {
+    width: 100%;
+}
+.lf-logo {
+    width: 20%;
+}
